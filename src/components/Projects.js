@@ -12,7 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This one is called To Do List
+            This one is a Checlist on React
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
