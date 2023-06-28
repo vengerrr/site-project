@@ -9,13 +9,13 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            App I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This one is a Checlist on React
+            This one is My plans on React. It allows users to add, edit, and delete tasks they want to work on, and also mark tasks as complete without deleting them
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex items-center justify-center">
           {projects.map((project) => (
             <a
               href={project.link}
